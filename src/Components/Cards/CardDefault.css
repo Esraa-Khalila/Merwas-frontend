@@ -1,0 +1,91 @@
+.card-default {
+  display: block !important;
+}
+.img-container {
+  position: relative;
+}
+
+.card-img-top {
+  display: block;
+}
+.onHover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--primary-color);
+}
+.img-container:hover .onHover {
+  opacity: 0.9;
+}
+.img-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card-default {
+  text-align: left !important;
+}
+.card-title {
+  margin-bottom: 0;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-anchor {
+  text-decoration: none;
+  color: var(--primary-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+.card-anchor:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.location {
+  color: var(--text-light);
+}
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.bought {
+  color: var(--text-light);
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.from {
+  font-size: 13px;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+}
+.discount {
+  text-decoration: line-through;
+  color: var(--text-light);
+  padding-right: 10px;
+}
+.currentPrice {
+  font-size: 35px;
+  color: var(--primary-color);
+}
+.card-body {
+  height: 90px;
+}
+.anchor {
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #01b2ee;
+  --primary-lighter-color: #30acd5;
+  --text-light: #92a2ad;
+}
+
+.App {
+  display: flex;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7fb;
+}

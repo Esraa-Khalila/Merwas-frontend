@@ -1,0 +1,30 @@
+.header-img {
+
+  padding: 50px;
+}
+.card-big {
+height: 150px;
+}
+
+.contact {
+  background-color: white;
+  margin-top: 50px;
+  padding: 40px;
+}
+.subscribe input {
+  box-shadow: 0 0 8px 0 rgb(79 88 100 / 10%);
+  border: 1px solid #dce3ed;
+  font-size: 17px;
+  padding: 10px;
+}
+.contact h5{
+  font-weight: 600;
+  font-size: larger;
+}
+/* .big{
+  padding: 0 70px;
+} */
+.bigg{
+  width:490px;
+ 
+}
