@@ -1,14 +1,7 @@
 .card-container {
   padding: 10px;
 }
-.header {
-  display: flex;
-  padding: 0;
-  padding-bottom: 22px;
-}
-
 .container-title {
-  margin-right: 15px;
-  font-weight: 700;
-  color: #4f5864;
+  font-weight: bolder;
+  color: var(--secondary-color)
 }

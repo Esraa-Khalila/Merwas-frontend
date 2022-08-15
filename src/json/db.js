@@ -77,7 +77,7 @@ export const featureds = [
     description:
       " Honda BasicCare 35-Point Service incl. Oil &amp; Filter Change for Honda Vehicles 2016 &amp; Older - Four Auckland Locations Available",
     subTitle: "Honda Stores Auckland",
-    location: "",
+    location: "Auckland",
     bought: "29 bought",
     price: "$195",
     discount: "$270",
@@ -325,7 +325,7 @@ export const stores = [
     image:
       "https://main-cdn.grabone.co.nz/goimage/325x225/6a68bf0910e8b89f542e2679809a8ad9d4adeea0.jpg",
     description: "Nora Red PU Leather Tub Chair",
-    subTitle: "TSB Living",
+    subTitle: "",
     location: "",
     bought: "",
     price: "$248",
@@ -407,7 +407,7 @@ export const restaurants = [
       "https://main-cdn.grabone.co.nz/goimage/325x225/29c8af9c3871a3f81f29ca9f39c77a1c4eeba72c.jpg",
     description:
       "Five-Course Winter Degustation Menu Vineyard Experience at Plume Restaurant Matakana - Options for up to 10 People",
-    subTitle: "Plume, the Vineyard Restaurant, Matakana",
+    subTitle: "Plume, the Vineyard Restaurant",
     location: "Matakana",
     bought: "83 bought",
     price: "$85",
@@ -424,23 +424,24 @@ export const beauties = [
     description:
       "Full Head of Highlights incl. Colour-Lock Treatment, Toner, Shampoo Service, Head Massage & Blow Dry Finish - Options for Cut & Colour or Colour Only - Senior Stylist, Medium or Long Hair Options A..",
     subTitle: "Vivo Hair and Skin Clinic ",
-    location: "",
+    location: ".",
     bought: "43 bought",
     price: "$154",
     discount: "$322",
     link: "https://new.grabone.co.nz/beauty-massage-spa/hair-colour-highlights/p/vivo-hair-and-skin-clinic-325",
   },
   {
-    title: "32-Level Electric Neck &amp; Body Massage Gun",
+    title: "Smoothing Keratin Treatment",
     image:
-      "https://main-cdn.grabone.co.nz/goimage/325x225/8f59504762d6b126ae8aa70c431c3da6d95ce5fd.jpg",
-    description: "32-Level Electric Neck &amp; Body Massage Gun",
-    subTitle: "",
-    location: "",
-    bought: "1 bought",
+      "https://main-cdn.grabone.co.nz/goimage/325x225/95bb5a9638d469582477860580e2d6f2d711e4c8.jpg",
+    description:
+      "Smoothing Keratin Treatment, Shampoo Service, Head Massage & Blow Wave incl. Any Two At-Home Kerasilk Aftercare Products - Medium & Long Hair Options Available",
+    subTitle: "Vivo Hair and Skin Clinic",
+    location: ".",
+    bought: "135 bought",
     price: "$86",
     discount: "",
-    link: "https://new.grabone.co.nz/beauty-massage-spa/massage-therapy/p/32-level-electric-massager-gun",
+    link: "https://new.grabone.co.nz/beauty-massage-spa/hairdressing-haircuts/p/vivo-hair-and-skin-clinic-338",
   },
   {
     title: "UltraFromer Treatment for Double Chin",
@@ -553,17 +554,18 @@ export const sports = [
     link: "https://new.grabone.co.nz/beauty-massage-spa/massage-therapy/p/32-level-electric-massager-gun",
   },
   {
-    title: "Four-Level Resistance Rowing Machine System",
+    title: "Two-Month Unlimited Group Fitness Classes",
     image:
-      "https://main-cdn.grabone.co.nz/goimage/325x225/a8cbbfbc091b9361ae56056553b8960471513fca.jpg",
-    description: "One UltraFromer Treatment for Double Chin Incl. Consultation",
+      "https://main-cdn.grabone.co.nz/goimage/325x225/44f7880fe5891f2b966b1b31c339260913f77adc.jpg",
+    description:
+      "  Two-Month Unlimited Group Fitness Classes - Functional Fitness",
 
-    subTitle: "TSB Living",
-    location: "",
-    bought: "1 bought",
-    price: "$550",
-    discount: "",
-    link: "https://new.grabone.co.nz/beauty-massage-spa/other-face-skincare/p/life-clinic-health-and-beauty-145",
+    subTitle: "ShoreFit",
+    location: "Glenfield",
+    bought: "",
+    price: "$99",
+    discount: "$216.50",
+    link: "https://new.grabone.co.nz/fitness-sports/gym/p/shorefit-1",
   },
   {
     title: "Four Weeks of Unlimited Training",
@@ -627,8 +629,8 @@ export const automotives = [
       "https://main-cdn.grabone.co.nz/goimage/325x225/7d5d2496b9713b74c90ac93dc062352e521c63ee.jpg",
     description:
       "Heated Car Cushion Cover - Two Colours Available &amp; Option for Two-Pack",
-    subTitle: "",
-    location: "",
+    subTitle: "Option for Two-Pack",
+    location: "Westfield",
     bought: "8 bought",
     price: "$45",
     discount: "$89",

@@ -6,17 +6,17 @@ import {discover} from '../../json/db'
 function Discover() {
   const [filter, setFilter] = useState(discover);
   return (
-    <div className="discover">
+    <div className="discover bg-white p-3">
       <div>
-        <h5 class="discover-text mb-0 fs-4 ">Discover</h5>
+        <h5 class="discover-text mb-0 py-7 px-3 ">Discover</h5>
         <hr />
       </div>
       <ul class="search-filter list-unstyled">
         {filter.map((data) => (
-          <li>
-            <a href={data.link} class="text-capitalize">
+          <li className="p-2 ">
+            <a href={data.link} class="text-capitalize d-flex justify-content-between">
               {data.title}
-              <span class="badge"> {data.count}</span>
+              <span class="badge pl-5"> {data.count}</span>
             </a>
           </li>
         ))}

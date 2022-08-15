@@ -4,10 +4,9 @@ import "./Button.css";
 function Button(props) {
   return (
     <div>
-      <button
+      <button 
         type="button"
-        className={"btn  " + props.classes }
-      
+        className={"btn " + props.classes }
       >
         {props.text}
       </button>

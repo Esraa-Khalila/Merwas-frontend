@@ -1,29 +1,19 @@
-.discover{
-    background-color:white;
-    padding: 10px;
-}
 .discover li {
-    padding: 10px;
-
-    border-bottom: 1px solid #f1f2f4;
-    
-    
+  border-bottom: 1px solid #f1f2f4;
 }
-.discover a{
-    text-decoration: none;
-    color:#4f5864;
-    font-size: 15px; 
-display: flex;
-    justify-content: space-between;
-  
+.discover a {
+  text-decoration: none;
+  color: #4f5864;
+  font-size: 15px;
+  font-weight: 600;
 }
-.discover-text{
-    color:var(--primary-color);
-    padding:7px 15px;
-    font-weight: 500;
+.discover-text {
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 25px;
 }
-.badge{
-    color: #92a2ad;  
-    font-weight: 400;
-   
+.badge {
+  color: var(--text-light);
+  font-weight: 300;
+  font-size: 13px;
 }

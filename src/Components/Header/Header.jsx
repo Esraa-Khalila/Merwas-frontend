@@ -1,9 +1,9 @@
 import React from "react";
 import CardDefault from "../Cards/CardDefault";
 import Container from "../SectionContainer/Container";
+import { Icon } from "@iconify/react";
 
 import { useState } from "react";
-import "./Header.css";
 import Discover from "../Discover/Discover";
 import Button from "../Button/Button";
 
@@ -19,7 +19,6 @@ function Header(props) {
     bought: "100 bought",
     price: "$279",
     discount: "$711",
-
   });
   const [cardTwo, setCardTwo] = useState({
     title: " Unlimited Entry Superpass to Rainbow's End",
@@ -32,59 +31,70 @@ function Header(props) {
     bought: "2280 bought",
     price: "$49",
     discount: "$64.66",
-  
   });
 
   return (
-    <div>
-      <div>
-        <div className="container">
-      <div className="header-top ">
-        <img
-          className="header-img col-12 w-100"
-          src="https://mediacdn.grabone.co.nz/asset/QtN08LooJk"
-          alt=""
-        /></div>
-      </div></div>
-      <div className="container">
-        <div className="row big ">
-          <div className="col-lg-3  col-sm-12  ">
+    <>
+      <div className="container-fluid">
+        <div className="my-4 pb-2 d-none d-sm-block">
+          <img
+            className="img-fluid w-100"
+            src="https://mediacdn.grabone.co.nz/asset/hoCwTPgtq5"
+          />
+        </div>
+        <div className="mt-2 mb-2 pb-3  d-none d-block d-sm-none">
+          <img
+            className="img-fluid"
+            src="https://mediacdn.grabone.co.nz/asset/aTX6skQdr4"
+          />
+        </div>
+
+        <div className="row">
+          <div className="d-none d-xl-flex">
             <Discover />
           </div>
-          <div className="col-lg-4   col-sm col-md-12 bigg ">
+          <div className="col-xl col-md-6 ">
             <CardDefault data={cardOne} />
           </div>
-          <div className="col-lg-4 col-sm-12 bigg ">
+          <div className="col-xl col-md-6 pt-2 ">
             <CardDefault data={cardTwo} />
           </div>
         </div>
-      </div>
-      <div className="contact container">
-        <div className="row ">
-          <div className="col-lg-6 col-m-12">
-            <h5 class="discover-text  mb-0  ">
+        <div className="p-4 my-4 bg-white ">
+          <div className="row ">
+            <h5 class="p-4 col-xl-6  font-weight-bolder">
               Get the best deals delivered direct to your inbox each day
             </h5>
-          </div>
-          <div className="col-lg-5 col-m-12 col-sm-2">
-            <div className="row">
-              <div className="subscribe ">
-                <input
-                  type="text"
-                  placeholder="&#9993; Enter email address"
-                  className="col-lg-11 col-m-12 col-sm-2"
-                />
 
-                <Button
-                  text={"Subscribe"}
-                  classes={"btn--third col-12 "}
-                ></Button>
+            <div className=" p-xl-4 pl-5 col-xl-6 col-8">
+              <div className="row">
+                <span class="input-group-append ">
+                  <button
+                    class="pb-2 bg-white border-right-0 border"
+                    type="button"
+                  >
+                    <Icon icon="carbon:email" className="mt-2" />
+                  </button>
+                </span>
+                <div className="col-xl-8 col-sm-9 col-7 p-0">
+                  <input
+                    type="text"
+                    placeholder="Enter email address"
+                    className="form-control border-left-0 border"
+                  />
+                </div>
+                <div className="col-xl-3 col-1 p-0">
+                  <Button
+                    text={"Subscribe"}
+                    classes={"btn--third"}
+                  ></Button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

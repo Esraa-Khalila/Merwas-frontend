@@ -26,43 +26,43 @@ function Home() {
   const [house, setHouses] = useState(houses);
   const [sport, setSports] = useState(sports);
   const [automotive, setAutomotives] = useState(automotives);
+  console.log(window.innerWidth);
 
   return (
-    <div>
+    <div className="container-fluid px-sm-5">
       <Header />
-      <div className="container">
-        <Container
-          title={"Featured Auckland deals"}
-          data={featured}
-          isDefault={true}
-        />
-        <Container title={"Collections"} data={collection} isDefault={false} />
-        <Container title={"Escapes"} data={escape} isDefault={true} />
-        <Container
-          title={"Activities, Events & Outdoors"}
-          data={activitie}
-          isDefault={true}
-        />
-        <Container title={"Store"} data={store} isDefault={true} />
-        <Container
-          title={"Activities, Events & Outdoors"}
-          data={escape}
-          isDefault={true}
-        />
-        <Container
-          title={"Restaurants, Bars, Cafes"}
-          data={restaurant}
-          isDefault={true}
-        />
-        <Container
-          title={"Beauty, Massage & Spa"}
-          data={beauty}
-          isDefault={true}
-        />
-        <Container title={"House & Garden"} data={house} isDefault={true} />
-        <Container title={"Fitness & Sports "} data={sport} isDefault={true} />
-        <Container title={"Automotive "} data={automotive} isDefault={true} />
-      </div>
+
+      <Container
+        title={"Featured Auckland deals"}
+        data={featured}
+        isDefault={true}
+      />
+      <Container title={"Collections"} data={collection} isDefault={false} />
+      <Container title={"Escapes"} data={escape} isDefault={true} />
+      <Container
+        title={"Activities, Events & Outdoors"}
+        data={activitie}
+        isDefault={true}
+      />
+      <Container title={"Store"} data={store} isDefault={true} />
+      <Container
+        title={"Activities, Events & Outdoors"}
+        data={escape}
+        isDefault={true}
+      />
+      <Container
+        title={"Restaurants, Bars, Cafes"}
+        data={restaurant}
+        isDefault={true}
+      />
+      <Container
+        title={"Beauty, Massage & Spa"}
+        data={beauty}
+        isDefault={true}
+      />
+      <Container title={"House & Garden"} data={house} isDefault={true} />
+      <Container title={"Fitness & Sports "} data={sport} isDefault={true} />
+      <Container title={"Automotive "} data={automotive} isDefault={true} />
     </div>
   );
 }

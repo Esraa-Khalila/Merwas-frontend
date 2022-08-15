@@ -1,16 +1,5 @@
 .card-anchor {
   color: var(--primary-color);
-  text-decoration: none;
-  
-}
-.img-container {
-  position: relative;
-}
-
-.card-img-top {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 .onHover {
   position: absolute;
@@ -28,7 +17,6 @@
   opacity: 0.9;
 }
 .img-text {
-  color: white;
   font-size: 15px;
   position: absolute;
   top: 50%;
@@ -36,15 +24,4 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
-
- 
-}
-
-.card-body {
-  text-align: center;
-  height: 130px;
-}
-.card-title{
-  font-size: 17px;
 }
