@@ -1,8 +1,7 @@
 import React from "react";
 import CardDefault from "../Cards/CardDefault";
-import Container from "../SectionContainer/Container";
+import './Header.css'
 import { Icon } from "@iconify/react";
-
 import { useState } from "react";
 import Discover from "../Discover/Discover";
 import Button from "../Button/Button";
@@ -62,11 +61,11 @@ function Header(props) {
         </div>
         <div className="p-4 my-4 bg-white ">
           <div className="row ">
-            <h5 class="p-4 col-xl-6  font-weight-bolder">
+            <h5 class="text-contact p-4 col-xl-6 font-weight-bolder">
               Get the best deals delivered direct to your inbox each day
             </h5>
 
-            <div className=" p-xl-4 pl-5 col-xl-6 col-8">
+            <div className=" p-xl-3 pl-5 col-xl-6 col-8">
               <div className="row">
                 <span class="input-group-append ">
                   <button
@@ -76,11 +75,11 @@ function Header(props) {
                     <Icon icon="carbon:email" className="mt-2" />
                   </button>
                 </span>
-                <div className="col-xl-8 col-sm-9 col-7 p-0">
+                <div className="col-xl-8  col-7 p-0">
                   <input
                     type="text"
                     placeholder="Enter email address"
-                    className="form-control border-left-0 border"
+                    className="form-control border-left-0 border col-sm-12"
                   />
                 </div>
                 <div className="col-xl-3 col-1 p-0">
